@@ -1,9 +1,3 @@
-/*!
- * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,7 +147,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Pacifico", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -224,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/hang-glider-Rio-de-Janeiro-RS0132.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -257,7 +251,7 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -307,7 +301,6 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -341,7 +334,6 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
@@ -419,9 +411,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
   color: white;
-  border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
 }
@@ -476,8 +466,8 @@ section h3.section-subheading {
     text-align: right;
   }
   .timeline > li .timeline-image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     left: 50%;
     margin-left: -50px;
   }
@@ -624,16 +614,17 @@ footer ul.quicklinks {
   text-transform: none;
 }
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
+  border: 4px solid #fed136;
+  font-size: 40px;
+  line-height: 80px;
   color: white;
   outline: none;
   -webkit-transition: all 0.3s;
@@ -736,4 +727,19 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.makeHundred {
+  width: 100%;
+}
+.tech-icons {
+  width: 30px;
+  margin-bottom: 10px;
+}
+.bottom-margin {
+  padding-bottom: 40px;
+}
+.download-icon {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 60px;
 }
